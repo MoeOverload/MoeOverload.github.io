@@ -1,7 +1,242 @@
 <!DOCTYPE html>
-<html>  
-<body>
-    <h1>Hello World </h1>
-    <p> I'm hosted with GitHub Pages</p>
-</body>
+
+<html lang="en">
+    <head>
+
+      <link href="styles.css" rel="stylesheet">
+      <style>
+        @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+      </style>
+
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>MoeOverload</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    </head>
+    <body class="BG1">
+
+
+
+        <!--welcome header-->
+        <div>
+          <h1 style="font-size:9vw" class="Mheader">MoeOverload</h1>
+          <br>
+          <hr>
+          <div class="quoteBox">
+            <p style="font-size: 1.5em" class="Sheader">
+                Welcome to my personal website all about Me, Moe!
+                <br>and all the things I love and do!
+            </p>
+          </div>
+        </div>
+        <br>
+        <br>
+
+
+
+
+        <!--Drop Down Menu -->
+        <div class="dropdown">
+          <button class="dropbtn">Index</button>
+          <div class="dropdown-content">
+              <a href="index.html">MoeOverload</a>
+              <a href="NovaBytes.html">NovaBytes</a>
+              <a href="CCF.html">CaribooCustomFlies</a>
+              <a href="https://github.com/MoeOverload">My Github</a>
+              <a href="contact.html">Contact Me</a>
+          </div>
+        </div>
+        <br>
+        <br>
+
+
+
+
+        <!--personal bio-->
+        <div class="quoteBox">
+          <br>
+            <h2 class="Mheader">About Me</h2>
+            <p class="Sheader">
+              Heyo, My Name is MoeOverload or more formally known as Morgan.
+              <br>I am a skate boarder, fly fishing fanatic, gardening guru and aspiring computer scientist and programmer!
+              <br> But above all, I am a father of a beautiful baby girl!
+              <br>This site was created for CS50 however I will be using the content for my own website in the near future, to serve as a sort of resume for me as a creative!
+              <br>Please explore what this site and its external links have to offer!</p>
+        </div>
+        <br>
+
+
+
+
+        <!--Bootstrap Photo carousel-->
+
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/homepage/images/IMG_0018.JPG" class="d-block w-100" alt="A strapping young lad, wearing a pretty awesome T-shirt">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>MoeOverload</h5>
+                  <p>A strapping young lad, wearing a pretty awesome T-shirt.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/homepage/images/IMG_0024.JPG" class="d-block w-100" alt="miss that car">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>The HondaLambo</h5>
+                  <p>miss this car!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/homepage/images/IMG_0015.PNG" class="d-block w-100" alt="Moe Skateboarding">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>its just a kickflip</h5>
+                  <p>kickflipping over the long rail at my local skatepark.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <br>
+
+
+
+
+        <!-- qoute -->
+        <div class="quoteBox">
+                <i>
+                    <p class="Sheader">
+                      <q>When you are inspired by some great purpose,
+                      <br>some extraordinary project,
+                      <br>all your thoughts break their bonds.</q>
+                    </p>
+                    <dt class="Sheader">— Patanjali, alive in India circa 100 BCE.</dt>
+                </i>
+        </div>
+        <br>
+        <br>
+
+        <!-- title for resume-->
+        <div>
+          <h1 style="font-size:7vw" class="Mheader">Things I Do</h1>
+        </div>
+        <br>
+        <div class="ROW">
+          <div class="PTextBubble">
+            <br>
+            <h3 class="Mheader">Programming</h3>
+            <p class="Sheader">
+            I initially learned to program in high school, but after years absent of coding, I seemed to have forgotten it all. So I had to re-learn all of the basics.
+            <br>What has pushed me to learn again was watching Pirate Software’s stream and being told I could do it by someone in a completely foreign world to me.
+            <br>It was inspiring to be part of a group of people all wanting to learn and grow in a community.
+            <br>So now I spend my days studying and practicing a lot. C, python, sql, html, css, JavaScript, c#, the list goes on.
+            <br>I plan on posting my practice projects to <a href="https://github.com/MoeOverload">My Github</a></p>
+          </div>
+          <div class="PTextBubble">
+            <br>
+            <h3 class="Mheader">Skateboarding</h3>
+            <p class="Sheader">
+            I have skated since I could walk, pushed by relatives I learned the art and devoted years to it.
+            <br>Ultimately culminating into a lot of fun and time wasted with my friends, memories and life skills I will always carry with me</p>
+          </div>
+        </div>
+        <br>
+
+
+        <div class="ROW">
+          <div class="PTextBubble">
+            <br>
+            <h3 class="Mheader">Bass Guitar</h3>
+            <p class="Sheader">
+              I love music so much I decided to pick up the bass guitar and teach myself.
+              <br>I’m not the best but I’ve learned a lot of my favorite songs and am able to play them full and well!
+            </p>
+          </div>
+          <div class="PTextBubble">
+            <br>
+            <h3 class="Mheader">Flooring</h3>
+            <p class="Sheader">
+              Every one needs a day job! Flooring installation is mine
+              <br>I don’t necessarily like it
+              <br>(hence why I’m learning to program)
+              <br>but I’m good at what I put the effort into! I have 8 years of flooring trade experience.
+            </p>
+          </div>
+        </div>
+        <br>
+
+
+        <div class="ROW">
+          <div class="PTextBubble">
+            <br>
+            <h3 class="Mheader">CS50</h3>
+            <p class="Sheader">
+              I am currently tackling this course with full intent on taking more courses!
+              <br>I am 2 weeks away from finishing the course in fact this website was for week 8’s problem set!
+            </p>
+          </div>
+          <div class="PTextBubble">
+            <br>
+            <h3 class="Mheader">Game Development</h3>
+            <p class="Sheader">
+              My first idea behind learning to program was to build a video game.
+              <br>Just like most young men I grew up enjoying playing with my friends, enjoying many moments of great joy!
+              <br>I want to be able to create something that can cause that feeling in someone.
+            </p>
+          </div>
+        </div>
+        <br>
+
+
+        <div class="ROW">
+          <div class="PTextBubble">
+            <br>
+            <h3 class="Mheader">Personal Home Lab</h3>
+            <p class="Sheader">
+              Out of pure hatred for paying for services and such that I could host or do myself I’ve began building a home lab!
+              <br>currently still just a Jellyfin media server with a NAS.
+              <br>I am aiming towards Linux and eventually even cybersecurity of some sort!
+            </p>
+          </div>
+          <div class="PTextBubble">
+            <br>
+            <h3 class="Mheader">Fly Fishing<br>Fly Tying</h3>
+            <p class="Sheader">
+              As a family trait, I also grew up fishing all over British Columbia.
+              <br>I’ve crafted my skills just by going out and enjoying time on the water.
+              <br>over the years I picked up the art of fly tying
+              <br>and began eventually selling them to friends and family! Under the name
+              <br> <a href="https://www.instagram.com/cariboocustomflies/">CaribooCustomFlies</a>
+            </p>
+          </div>
+        </div>
+        <hr>
+        <br>
+
+        <!--Footer links-->
+        <div class="quoteBox">
+          <footer>
+            <p style="font-size:95%" class="Sheader">
+              <a href="index.html">Home/MoeOverload</a> | <a href="NovaBytes.html">NovaBytes</a> | <a href="CCF.html">CaribooCustomFlies</a> | <a href="https://github.com/MoeOverload">My Github</a> | <a href="contact.html">Contact Me</a>
+            </p>
+          </footer>
+        </div>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </body>
 </html>
+
+
