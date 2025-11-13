@@ -22,7 +22,7 @@
 
 /*background color*/
 .BG1 {
-    background-image: url("images/SpaceBckgrnd.jpg");
+    background-image: url("SpaceBckgrnd.jpg");
     background-size:cover;
     background-attachment: fixed;
     background-color: #000000;
